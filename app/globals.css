@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  min-height: 100vh;
+  background:
+    radial-gradient(900px 420px at 10% -10%, rgba(240, 180, 41, 0.16), transparent 55%),
+    radial-gradient(700px 380px at 100% 0%, rgba(39, 117, 202, 0.12), transparent 50%),
+    #100e0c;
+  color: #f6efe4;
+}
+
+::selection {
+  background: #f0b429;
+  color: #1a1206;
+}
+
+@keyframes tip-in {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+    background-color: rgba(240, 180, 41, 0.16);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    background-color: transparent;
+  }
+}
+
+.tip-new {
+  animation: tip-in 700ms ease;
+}
+
+@keyframes pulse-dot {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.35;
+  }
+}
+
+.live-dot {
+  animation: pulse-dot 1.4s ease-in-out infinite;
+}

@@ -1,0 +1,12 @@
+node_modules
+tmp
+.cursor
+.next
+out
+.env
+.env.local
+.env*.local
+.vercel
+*.log
+tsconfig.tsbuildinfo
+next-env.d.ts
