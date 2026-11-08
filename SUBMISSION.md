@@ -47,9 +47,9 @@ Next.js 14 App Router, TypeScript, Tailwind CSS, `@solana/actions`, `@solana/web
 
 ## Links
 
-- Live demo: LIVE_URL
-- Blink: BLINK_URL
-- Repo: REPO_URL
+- Live demo: https://blink-tip-jar.vercel.app
+- Blink: https://dial.to/?action=solana-action:https%3A%2F%2Fblink-tip-jar.vercel.app%2Fapi%2Factions%2Ftip%3Fto%3DFfr7zj2fw9h1LSMwUCSJBSmKhztHJprZ3Sw2GS5KNxS6&cluster=devnet
+- Repo: https://github.com/devinuwa/blink-tip-jar
 
 ## What’s next
 

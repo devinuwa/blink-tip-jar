@@ -2,6 +2,10 @@
 
 Tip a creator in SOL or USDC from an X post. The Blink returns an unsigned Solana transaction. The home page shows a live feed read from the chain. There is no database.
 
+Live demo: https://blink-tip-jar.vercel.app
+
+Blink: https://dial.to/?action=solana-action:https%3A%2F%2Fblink-tip-jar.vercel.app%2Fapi%2Factions%2Ftip%3Fto%3DFfr7zj2fw9h1LSMwUCSJBSmKhztHJprZ3Sw2GS5KNxS6&cluster=devnet
+
 ## Setup
 
 ```bash
